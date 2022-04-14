@@ -16,7 +16,7 @@ import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-davej66-movingforward-l9jozhui481.ws-eu39b.gitpod.io','https://djj-moving-forward.herokuapp.com/']
+# CSRF_TRUSTED_ORIGINS = ['https://8000-davej66-movingforward-l9jozhui481.ws-eu39b.gitpod.io','https://djj-moving-forward.herokuapp.com/']
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
