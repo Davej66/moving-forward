@@ -1,4 +1,3 @@
-"""the bag contents page """
 from django.shortcuts import (
     render, redirect, reverse, HttpResponse, get_object_or_404
 )
@@ -120,6 +119,6 @@ def remove_from_bag(request, item_id):
         request.session['bag'] = bag
         return HttpResponse(status=200)
 
-    except ExceptionBag as bagerror:
-        messages.error(request, f'Error removing item: {bagerror}')
+    except Exception as e:
+        messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)

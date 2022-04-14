@@ -6,6 +6,13 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
+from django.shortcuts import render, redirect
+import stripe
+import json
+from django.http import JsonResponse
+from djstripe.models import Product
+
+
 
 @login_required
 def profile(request):
