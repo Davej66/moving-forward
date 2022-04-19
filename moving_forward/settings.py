@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['djj-moving-forward.herokuapp.com', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'subscriptions.apps.SubscriptionsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -48,7 +49,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
-
+    
     # Other
     'crispy_forms',
     'storages',
@@ -227,3 +228,5 @@ else:
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
+default_auto_field = 'django.db.models.BigAutoField'
