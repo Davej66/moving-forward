@@ -10,17 +10,14 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    The new plans are here with nutition plans are available to compliment them
-                </h1>
+    <div class="container h-20">
+        <div class="row h-20">
+            <div class="col-8 col-md-6 my-auto">
                 <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Browse Our other Products Now</a>
-                    </h4>
-                </div>
+                  <h4>
+                      <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Browse Products here Now!</a>
+                  </h4>
+              </div>
             </div>
         </div>
     </div>
@@ -49,51 +46,34 @@
       
           {% endfor %}
         </div>
-        <br><br><hr><br><br>
+        <br><br>
         <div>
-          <div class="row">
-            <div class="col-12">
+          <div class="row center">
+            <div class="col-7">
               <div class="card mx-5 shadow rounded" style="border-radius:50px;border:none">
                 <div class="card-body">
                   <h5 class="card-title font-weight-bold">Subscription Checkout</h5>
-                  <p class="text-muted ">Enter card details.  Your subscription will start immediately</p>
+                  <p class="text-muted ">Enter card details.  Your subscription will start immediately</p>{{plan.id}}
                   <div class="row">
-                    <div class="col-6 text-muted">
+                    <div class="col-6 text-left">
                       <p>Plan:</p>
-                      <p>Total:</p>
-                      <p>Name:</p>
                     </div>
-                    <div class="col-6 text-right">
+                    <div class="col-6 text-center">
                       <p id="plan"></p>
-                      <p id="price"></p>
-                      <p id="Name"></p>
+                      <p id="price"></p> 
                       <p hidden id="priceId"></p>
                     </div>
                     
       
                   </div>
                   <br>
-                  <form id="subscription-form" >
-                    <div id="card-element" class="MyCardElement">
-                      <!-- Elements will create input elements here -->
-                    </div>
-                    
-                    <!-- We'll put the error messages in this element -->
-                    <div id="card-errors" role="alert"></div>
-                    <button id="submit" type="submit">
-                      <div class="spinner-border  spinner-border-sm text-light hidden" id="spinner" role="status">
-                        <span class="sr-only">Loading...</span>
-                      </div>
-                      <span id="button-text">Subscribe</span>
-                    </button>
-                  </form>
-                </div>
+                  
               </div>
       
             </div>
           </div>
         </div>
-      
+        <br><br><hr><br><br>
       </div>
 
 {% endblock %}
