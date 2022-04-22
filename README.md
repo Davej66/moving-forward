@@ -21,6 +21,10 @@ All pages on this website are responsive to desktop, iPad and, mobile screens. E
 
 ## **Wireframe Mockups:**
 
+![Alt text](../media/readme/moving_forward_wf.jpg)
+
+
+
 ### Desktp
 ![image](https://user-images.githubusercontent.com/85559896/149306958-9af12468-ded7-4fad-ba7b-0bd334615b1a.png)
 
