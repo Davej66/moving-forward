@@ -26,7 +26,6 @@ urlpatterns = [
     path('bag/', include('bag.urls')),
     path('profile/', include('profiles.urls')),
     path('checkout/', include('checkout.urls')),
-    path('subscriptions/', include('subscriptions.urls')),
-    path('plans/', include('plans.urls')),
-    path("stripe/", include("djstripe.urls", namespace="djstripe")),
+    path('donations/', include('packages.urls')),
+    path('donations/', include('subscriptions.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+{% if subscription.status == "active" %}
     <div class="container h-50">
         <div class="row h-50">
             <div class="col-7 col-md-6 my-auto">
@@ -89,6 +90,8 @@
         
         </div>
     </div>
-
+{% else %}
+    <button type="submit" class="btn btn-primary" id="submitBtn">Subscribe</button>
+{% endif %}
 
 {% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block post_CSS %}
+<link rel="stylesheet" href="{% static 'packages/css/packages.css' %}">
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container h-20">
+        
+      
+    </div>
+
+      
+    <br><br>
+        
+        
+      
+    </body>
+
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script>
+        
+    </script>
+    <!--<script src="{% static 'subscriptions/js/script.js' %}"></script>-->
+    <script src="{% static 'packages/js/main.js' %}" type="text/javascript"></script>-->
+{% endblock %}

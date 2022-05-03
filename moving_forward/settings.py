@@ -50,11 +50,12 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'plans',
+    'packages',
     
     # Other
     'crispy_forms',
     'storages',
-    'djstripe',
+    
 ]
 
 MIDDLEWARE = [
@@ -212,8 +213,8 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 STRIPE_TEST_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_TEST_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_LIVE_MODE = False  # Change to True in production
-DJSTRIPE_WEBHOOK_SECRET = "whsec_xxx"
-DJSTRIPE_FOREIGN_KEY_TO_FIELD = "id"
+#DJSTRIPE_WEBHOOK_SECRET = "whsec_xxx"
+#DJSTRIPE_FOREIGN_KEY_TO_FIELD = "id"
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

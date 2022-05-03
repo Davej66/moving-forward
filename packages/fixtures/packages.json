@@ -1,0 +1,23 @@
+[
+    
+    {
+        "pk": 1,
+        "model": "packages.package",
+        "fields": {
+            "tier": 1,
+            "name": "Everyday Account",
+            "description": "Lorem ipsum here 1",
+            "price": 9.99
+        }
+    },
+    {
+        "pk": 2,
+        "model": "packages.package",
+        "fields": {
+            "tier": 2,
+            "name": "Pro Account",
+            "description": "Lorem ipsum here 2",
+            "price": 14.99
+        }
+    }
+]
