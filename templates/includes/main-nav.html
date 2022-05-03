@@ -19,13 +19,13 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Clothing
+                Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Activewear &amp; Essentials</a>
-                <a href="{% url 'products' %}?category=fitness_wear" class="dropdown-item">Fitness wear</a>
-                <a href="{% url 'products' %}?category=gym_wear" class="dropdown-item">Gym wear</a>
-                <a href="{% url 'products' %}?category=activewear,essentials,fitness_wear,gym_wear" class="dropdown-item">All </a>
+                <a href="{% url 'products' %}?category=clothing,sportswear" class="dropdown-item">Clothing &amp; Sportswear</a>
+                <a href="{% url 'products' %}?category=gifts" class="dropdown-item">Gifts</a>
+                <a href="{% url 'products' %}?category=art" class="dropdown-item">Art</a>
+                <a href="{% url 'products' %}?category=clothing,sportswear,gifts,art" class="dropdown-item">All </a>
             </div>
         </li>
 
@@ -34,9 +34,9 @@
                 Donations
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'donations' %}?category=fitness_plans" class="dropdown-item">£10 Donation</a>
-                <a href="{% url 'donations' %}?category=nutrition_plans" class="dropdown-item">£25 Donation</a>
-                <a href="{% url 'donations' %}?category=fitness_plans,nutrition_plans" class="dropdown-item">£50 Donation</a>
+                <a href="{% url 'donations' %}?category=donation" class="dropdown-item">£10 Donation</a>
+                <a href="{% url 'donations' %}?category=donation" class="dropdown-item">£25 Donation</a>
+                <a href="{% url 'donations' %}?category=donation" class="dropdown-item">£50 Donation</a>
             </div>
         </li>
 
