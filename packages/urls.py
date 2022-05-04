@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
-from packages import views
+from . import views
 
 urlpatterns = [
-    path('', views.package_index, name="donations"),
-    path('charge/', views.charge, name="charge"),
-    path('success/<str:args>/', views.successMsg, name="success"),
+    path('', views.index, name="packages"),
+    path('success/', views.success, name="success"),
+    path('checkout/', views.checkout, name='checkout'),
 ]
