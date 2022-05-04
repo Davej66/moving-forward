@@ -5,5 +5,4 @@ from . import views
 urlpatterns = [
     path('', views.index, name="packages"),
     path('success/', views.success, name="success"),
-    path('checkout/', views.checkout, name='checkout'),
 ]
