@@ -32,6 +32,13 @@
 
 ### Desktop
 
+![image](https://user-images.githubusercontent.com/85559896/167219890-25b2fcce-aad7-496d-b856-32bbb73bf06e.png)
+
 ### Tablet
 
+![image](https://user-images.githubusercontent.com/85559896/167219863-b015ca31-e944-4f1a-8357-471909da7929.png)
+
 ### Mobile
+
+![image](https://user-images.githubusercontent.com/85559896/167219913-3af793ab-eb3d-4cac-8945-d93f742c30ee.png)
+
