@@ -1,10 +1,12 @@
+![image](https://user-images.githubusercontent.com/85559896/167136730-59380342-5ed8-454f-b53d-5c143bee7165.png)
 
+# **Moving Forward** 
 
-# **UX User Experience**
+Moving Forward is a website to allow users to donate or buy locally produced or sourced items with the the profits from these purchases being re-invested into the local commumities and charity groups in the Cape Town area of the Western Province.
 
-## **User Stories**
+# **UX**
 
-All pages on this website are responsive to desktop, iPad and, mobile screens. Every effort has been made om making this website to be as intuitive as possible.
+## Visitor Goals
 
 - First Time Visitor Goals
 - As a First Time Visitor, I want to easily find a fitness plan I want to start.
@@ -18,10 +20,45 @@ All pages on this website are responsive to desktop, iPad and, mobile screens. E
 - As a Returning Visitor, I would like to Remove a book review I added to the website.
 - As a Returning Visitor, I would like to delete a review I left on a plan/purchase.
 
+# **User Stories**
+
+## **User**
+- As a user I want to be able to purchase items that I like.
+- As a user I want to be able to shop with confidence and pay with my card directly not through a third party site.
+- As a user I want to be able to donate with confidence and pay with my card directly not through a third party site.
+
+## **Admin**
+- As a user I want to be able to add products easily.
+- As a user I want to ensure an authenticated user can access all required information correctly.
+- As a user I want to include options for the admin to quickly edit the site.
+
+## **Developer**
+- As a user i want to ensure the user can't break the flow of the site with correct defensive design choices.
+- As a user i want to ensure an authenticated user can access all required information correctly.
+- As a user i want to include options for the admin to quickly edit the site.
+
+
+## **Colours**
+
+I wanted to select a minimal range of colours not to overwhelm but to compliment the selcted background image selecting #ADD8E6 produced the desired effect without compromising the website.
+
+![image](https://user-images.githubusercontent.com/85559896/167144643-078a40eb-a591-47fd-b0f5-5d351308400a.png)
+
+## **Fonts**
+
+The Lato font was selected for its clean and business like style for the website.
+
 
 ## **Wireframe Mockups:**
 ### Desktop&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tablet&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Mobile
 ![test](./media/readme/moving_forward_wf.jpg)
 
+## **Testing**
 
+## **Bugs**
 
+## Unresolved Issues
+- Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
+- When Donations are purchase and the total shopping bag is less then £50 so a delivery is added, this too would require further coding before going live.
+
+# **Deployment**
