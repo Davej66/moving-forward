@@ -67,6 +67,14 @@ The Lato font was selected for its clean and business like style for the website
 
 The site can be deployed locally using VsCode IDE, deployed on Heroku using Amazon W3 for the the hosting of static and media files. The site will automatically update with commits to the main branch, the code will contiue to run locally. A temporary issue has arised with automatic deployment from commits due a breach with heroku this is currently being investigated and be resolved. 
 
+## Deployment Requirements
+
+- [GitPod](https://gitpod.io/) with VsCode - Local development tool
+- [Python](https://www.python.org/downloads/) Documentation is based on Python v3.8
+- [PIP3] PIP package installer 
+- [Stripe](https://stripe.com/gb) Payment infrastructure
+
+
 ## Deploying Locally
 
 
