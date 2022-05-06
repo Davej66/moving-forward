@@ -57,8 +57,23 @@ The Lato font was selected for its clean and business like style for the website
 
 ## **Bugs**
 
+•	Problem 🐞
+
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
 - When Donations are purchase and the total shopping bag is less then £50 so a delivery is added, this too would require further coding before going live.
 
 # **Deployment**
+
+The site can be deployed locally using VsCode IDE, deployed on Heroku using Amazon W3 for the the hosting of static and media files. The site will automatically update with commits to the main branch, the code will contiue to run locally. A temporary issue has arised with automatic deployment from commits due a breach with heroku this is currently being investigated and be resolved. 
+
+## Deploying Locally
+
+
+
+## Deploying To Heroku
+
+
+# **Disclaimer**
+
+All images & content used for this site are for educational purposes only, and have been sourced from pexel or the developers own library.
