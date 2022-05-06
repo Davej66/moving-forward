@@ -25,18 +25,16 @@
                 <a href="{% url 'products' %}?category=clothing,sportswear" class="dropdown-item">Clothing &amp; Sportswear</a>
                 <a href="{% url 'products' %}?category=gifts" class="dropdown-item">Gifts</a>
                 <a href="{% url 'products' %}?category=art" class="dropdown-item">Art</a>
-                <a href="{% url 'products' %}?category=clothing,sportswear,gifts,art" class="dropdown-item">All </a>
+                <a href="{% url 'products' %}?category=clothing,sportswear,gifts,art,donation" class="dropdown-item">All </a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="donation-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Donations
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'donations' %}?category=donation" class="dropdown-item">£10 Donation</a>
-                <a href="{% url 'donations' %}?category=donation" class="dropdown-item">£25 Donation</a>
-                <a href="{% url 'donations' %}?category=donation" class="dropdown-item">£50 Donation</a>
+            <div class="dropdown-menu border-0" aria-labelledby="donation-link">
+                <a href="{% url 'products' %}?category=donation" class="dropdown-item">Donations</a>
             </div>
         </li>
 
