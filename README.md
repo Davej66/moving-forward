@@ -92,20 +92,21 @@ To run this application in an online environment you will need to deploy the cod
 ###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;heroku Postgres
 
 4.	in the settings tab select Reveal Config Vars and copy the pre populated DATABASE_URL into your settings.py file in your project.
+5.	in the Config Vars in Heroku you will need to populate with the following keys.
 
 ##### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Key&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Value
 
-###### &emsp;AWS_ACCESS_KEY_ID&emsp;&emsp;&emsp;[your value]
+###### &emsp;AWS_ACCESS_KEY_ID&emsp;&emsp;&emsp;&emsp;&emsp;[your value]
 
-###### &emsp;AWS_SECRET_ACCESS_KEY&emsp;&emsp;&emsp;[your value]
+###### &emsp;AWS_SECRET_ACCESS_KEY&emsp;&emsp;[your value]
 
-###### &emsp;DATABASE_URL&emsp;&emsp;&emsp;[your value]
+###### &emsp;DATABASE_URL&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[your value]
 
 ###### &emsp;EMAIL_HOST_PASS&emsp;&emsp;&emsp;[your value]
 
 ###### &emsp;EMAIL_HOST_USER&emsp;&emsp;&emsp;[your value]
 
-###### &emsp;SECRET_KEY&emsp;&emsp;&emsp;[your value]
+###### &emsp;SECRET_KEY&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[your value]
 
 ###### &emsp;STRIPE_PUBLIC_KEY&emsp;&emsp;&emsp;[your value]
 
@@ -117,10 +118,10 @@ To run this application in an online environment you will need to deploy the cod
 
 
 
-
-
-5.	in the Config Vars in Heroku you will need to populate with the following keys.
 6.	Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below.
+
+###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python manage.py migrate
+
 7.	Next you will need to create a super user and populate the database as described in the database set up section.
 8.	When3.	From here select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from. the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
 9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
