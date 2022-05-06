@@ -72,7 +72,9 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 - [GitPod](https://gitpod.io/) with VsCode - Local development tool
 - [Python](https://www.python.org/downloads/) Documentation is based on Python v3.8
 - [PIP3] PIP package installer 
-- [Stripe](https://stripe.com/gb) Payment infrastructure
+- [Stripe](https://stripe.com/gb) Media Storage
+- [Amazon S3](https://aws.amazon.com/) Payment infrastructure
+- [Heruko](https://www.heroku.com/) Payment infrastructure
 
 
 ## Deploying Locally
@@ -80,6 +82,51 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 
 
 ## Deploying To Heroku
+
+To run this application in an online environment you will need to deploy the code to Heroku. Before moving on to this section please ensure you have followed the instructions for local deployment and this has been successful
+
+1.	Either create an account at [Heruko](https://www.heroku.com/) or log in to your account.
+2.	Set up a new app under a unique name.
+3.	In the resources section, in the addons field type the below command and select the free cost option.
+
+###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;heroku Postgres
+
+4.	in the settings tab select Reveal Config Vars and copy the pre populated DATABASE_URL into your settings.py file in your project.
+
+##### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Key&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Value
+
+###### &emsp;AWS_ACCESS_KEY_ID&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;AWS_SECRET_ACCESS_KEY&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;DATABASE_URL&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;EMAIL_HOST_PASS&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;EMAIL_HOST_USER&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;SECRET_KEY&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;STRIPE_PUBLIC_KEY&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;STRIPE_SECRET_KEY&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;STRIPE_WH_SECRET&emsp;&emsp;&emsp;[your value]
+
+###### &emsp;USE_AWS&emsp;&emsp;&emsp;TRUE
+
+
+
+
+
+5.	in the Config Vars in Heroku you will need to populate with the following keys.
+6.	Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below.
+7.	Next you will need to create a super user and populate the database as described in the database set up section.
+8.	When3.	From here select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from. the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
+9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
+10.	When this has deployed select open app from the top bar of the Heroku App.
+
+
 
 
 # **Disclaimer**
