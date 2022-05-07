@@ -132,6 +132,29 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 
 ## Deploying Locally
 
+1. In the repository click on the "use this template" it will open in a new window with you being required t give the new repository a name. Select public or private and then the create button.
+2. When the new repository has been created select Gitpod to open.
+3. When this completes you will be required to import the requirememts using te following;
+
+&emsp;&emsp;&emsp;pip3 install -r requirements.txt
+
+5. Within the root dir called env.py, in this file add the following lines to set up the environmental variables.
+
+ &emsp;&emsp;&emsp;import os
+
+ &emsp;&emsp;&emsp;os.environ["SECRET_KEY"] = "[Your Secret Key]"
+ 
+ &emsp;&emsp;&emsp;os.environ["DEV"] = "1"
+ 
+ &emsp;&emsp;&emsp;os.environ["HOSTNAME"] = "0.0.0.0"
+ 
+ &emsp;&emsp;&emsp;os.environ["STRIPE_PUBLIC_KEY"] = "[Your Stripe Key]"
+ 
+ &emsp;&emsp;&emsp;os.environ["STRIPE_SECRET_KEY"] = "[Your Stripe Secret Key]"
+ 
+ &emsp;&emsp;&emsp;os.environ["DATABASE_URL"] = "[Your DB URL]"
+
+
 
 
 ## Deploying To Heroku
