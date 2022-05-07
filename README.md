@@ -51,7 +51,7 @@ The Lato font was selected for its clean and business like style for the website
 
 ## **Wireframe**
 
-### [linked text](http://squarespace.com/ "Title")
+### [link](https://github.com/Davej66/moving-forward/blob/main/WIREFRAMES.MD)
 
 
 
