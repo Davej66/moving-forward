@@ -53,6 +53,29 @@ The Lato font was selected for its clean and business like style for the website
 
 ### [Link to wireframes](https://github.com/Davej66/moving-forward/blob/main/WIREFRAMES.MD)
 
+## **Freatures**
+
+### Existing Features
+
+##### Store
+
+A range of locallly sourced goods and donations that the profit from goes to these groups, purchasing is a seamless process within the website. 
+
+##### Clients
+
+Clients that register, their details are recorded and can be updated and are used to prefill where required for new orders. Previous purchases are listed in their profile page.
+
+### Future Features
+
+##### Clients
+
+- Clients to be able to add a profile picture.
+- Add additional information such as hobbies and skills, and when selected by the client this information would be available on a community page. To exchange social or commercial assisatnace to other memebers and to the groups supported by the website.
+- To be able to contact the local groups and store these messages.
+- Facetime or similiar these groups.
+- This greater interaction will allow those clients who have skills or time to offer additional help to these groups.
+
+Develope greater links to the individual charities and local groups to the customer to create greater bonds.
 
 
 ## **Technology Used**
@@ -83,9 +106,11 @@ The Lato font was selected for its clean and business like style for the website
 
 ## **Testing**
 
+ Working on
+ 
 ## **Bugs**
 
-•
+Working on
 
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
