@@ -52,13 +52,6 @@ No automated testing has been used on this project, i have opted to do all testi
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
-# **Bugs**
-
-- Problem : The home page option is missing from the drop-down menu in the tablet mode. 
-- Cause :
-- Resolution :
-
-----------------------------------------------------------------------------------------------------------------------------------
 
 
 
