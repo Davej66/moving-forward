@@ -154,8 +154,23 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
  
  &emsp;&emsp;&emsp;os.environ["DATABASE_URL"] = "[Your DB URL]"
 
+### Database
 
+1. To set up your database you will first need to run the following command.
 
+&emsp;&emsp;&emsp;python manage.py migrate
+
+3. To create a super user to allow you to access the admin panel run the following command in your terminal and complete the required information as prompted.
+
+&emsp;&emsp;&emsp;python manage.py createsuperuser
+
+4. From there you should now be able to run the server using the following command.
+
+&emsp;&emsp;&emsp;python manage.py runserver
+
+5. Next close the server in your terminal using ctrl+c (cmd+c on mac) and run the following commands to populate the database.
+
+&emsp;&emsp;&emsp;python3 manage.py loaddata store/fixtures/categories.json
 
 ## Deploying To Heroku
 
