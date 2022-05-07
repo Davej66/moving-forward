@@ -12,7 +12,6 @@ import json
 from django.http import JsonResponse
 
 
-
 @login_required
 def profile(request):
     """ Display the user's profile. """
@@ -43,6 +42,7 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    """ Display the user's order. """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (
