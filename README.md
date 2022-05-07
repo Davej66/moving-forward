@@ -108,9 +108,14 @@ Develope greater links to the individual charities and local groups to the custo
 
 ### [Link to Testing](https://github.com/Davej66/moving-forward/blob/main/TESTING.md)
  
-## **Bugs**
+# **Bugs**
 
-Working on
+- Problem : The home page option is missing from the drop-down menu in the tablet mode. 
+- Cause :
+- Resolution :
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
