@@ -37,10 +37,10 @@ No automated testing has been used on this project, i have opted to do all testi
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-- Implementation : 
-- Test :
-- Result :
-- Verdict :
+- Implementation : Confirm a delivery charge is applied to orders under £50 and no delivery charge above £50.
+- Test : Two orders were made one under £50 and above £50 and the checkout completed.
+- Result : The orders were passed through the checkout and the appropriate charge was made to the repective orders successfully.
+- Verdict : The test was successful and deemed a pass.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
