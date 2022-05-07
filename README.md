@@ -51,7 +51,7 @@ The Lato font was selected for its clean and business like style for the website
 
 ## **Wireframe**
 
-### [link](https://github.com/Davej66/moving-forward/blob/main/WIREFRAMES.MD)
+### [Link to wireframes](https://github.com/Davej66/moving-forward/blob/main/WIREFRAMES.MD)
 
 
 
