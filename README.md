@@ -49,15 +49,43 @@ I wanted to select a minimal range of colours not to overwhelm but to compliment
 The Lato font was selected for its clean and business like style for the website.
 
 
-## **Wireframe Mockups:**
-### Desktop&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tablet&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Mobile
-![test](./media/readme/moving_forward_wf.jpg)
+## **Wireframe**
+
+### [linked text](http://squarespace.com/ "Title")
+
+
+
+## **Technology Used**
+
+### Languages
+
+- HTNL
+- CSS
+- Javascript
+- [Python](https://www.python.org/downloads/)
+
+### Frameworks
+
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap]https://getbootstrap.com/)
+
+### Libraries
+
+- [Jquery]https://jquery.com/)
+- [Stripe](https://stripe.com/gb)
+
+### Tools
+
+- [Amazon S3](https://aws.amazon.com/)
+- [Heruko](https://www.heroku.com/) 
+- [Github](https://github.com/) 
+- [Postgres](https://www.postgresql.org/)
 
 ## **Testing**
 
 ## **Bugs**
 
-•	Problem 🐞
+•
 
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
@@ -72,9 +100,9 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 - [GitPod](https://gitpod.io/) with VsCode - Local development tool
 - [Python](https://www.python.org/downloads/) Documentation is based on Python v3.8
 - [PIP3] PIP package installer 
-- [Stripe](https://stripe.com/gb) Media Storage
-- [Amazon S3](https://aws.amazon.com/) Payment infrastructure
-- [Heruko](https://www.heroku.com/) Payment infrastructure
+- [Stripe](https://stripe.com/gb) Payment infrastructure
+- [Amazon S3](https://aws.amazon.com/) Media Storage
+- [Heruko](https://www.heroku.com/) Cloud Platform
 
 
 ## Deploying Locally
@@ -116,8 +144,6 @@ To run this application in an online environment you will need to deploy the cod
 
 ###### &emsp;USE_AWS&emsp;&emsp;&emsp;TRUE
 
-
-
 6.	Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below.
 
 ###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python manage.py migrate
@@ -128,8 +154,16 @@ To run this application in an online environment you will need to deploy the cod
 10.	When this has deployed select open app from the top bar of the Heroku App.
 
 
+# Credits
 
+## Media
 
-# **Disclaimer**
+Images have been sourced from PEXEL or from the developer.
+
+## Acknowledgements
+
+* Richard Wells for his continuing inspirational support, guidance and input.
+
+## **Disclaimer**
 
 All images & content used for this site are for educational purposes only, and have been sourced from pexel or the developers own library.
