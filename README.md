@@ -119,7 +119,7 @@ Develope greater links to the individual charities and local groups to the custo
 
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
-- When Donations are purchase and the total shopping bag is less then £50 so a delivery is added, this too would require further coding before going live.
+- When Donations are purchased and the total shopping bag is less then £50 a delivery is added, this too would require further coding before going live.
 
 # **Deployment**
 
