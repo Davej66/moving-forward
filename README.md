@@ -108,8 +108,8 @@ Develope greater links to the individual charities and local groups to the custo
 # **Bugs**
 
 - Problem : The home page option is missing from the drop-down menu in the tablet mode. 
-- Cause :
-- Resolution :
+- Cause : The styling padding was causing the top of the list to be obscured.
+- Resolution :  The padding was adjusted.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
