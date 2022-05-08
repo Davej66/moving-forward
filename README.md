@@ -111,6 +111,10 @@ Develope greater links to the individual charities and local groups to the custo
 - Cause : The styling padding was causing the top of the list to be obscured.
 - Resolution :  The padding was adjusted.
 
+- Problem : Fails to load. 
+- Cause : Removed surplus apps cause a process error.
+- Resolution :  Removing links/migrations to previous apps.
+
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
