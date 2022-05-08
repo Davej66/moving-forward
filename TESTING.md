@@ -44,10 +44,10 @@ No automated testing has been used on this project, i have opted to do all testi
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-- Implementation : 
-- Test :
-- Result :
-- Verdict :
+- Implementation : Confirm a no previous orders meesage and link to products page in user profile page.
+- Test : A new user was created and in the new user profile page checked if the message and link was there. Then to purcase some items and see  if the previous orders listis then shown in place of the previous no purchase orders message and shopping link.
+- Result : The appropriate no previous orders message and shopping link was displayed when no previous orders had been made and then when their had been purchase these were listed.
+- Verdict : The test was successful and deemed a pass.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
