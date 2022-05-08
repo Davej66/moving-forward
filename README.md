@@ -79,7 +79,7 @@ Develop greater links to the individual charities and local groups to the custom
 
 ### Languages
 
-- HTNL
+- HTML
 - CSS
 - Javascript
 - [Python](https://www.python.org/downloads/)
