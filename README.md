@@ -139,9 +139,9 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 
 ## Deploying Locally
 
-1. In the repository click on the "use this template" it will open in a new window with you being required t give the new repository a name. Select public or private and then the create button.
+1. In the repository click on the "use this template" it will open in a new window with you being required to give the new repository a name. Select public or private and then the create button.
 2. When the new repository has been created select Gitpod to open.
-3. When this completes you will be required to import the requirememts using te following;
+3. When this completes you will be required to import the requirememts using the following;
 
 &emsp;&emsp;&emsp;pip3 install -r requirements.txt
 
@@ -165,15 +165,15 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 
 1. To set up your database you will first need to run the following command.
 
-&emsp;&emsp;&emsp;python manage.py migrate
+&emsp;&emsp;&emsp;python3 manage.py migrate
 
 3. To create a super user to allow you to access the admin panel run the following command in your terminal and complete the required information as prompted.
 
-&emsp;&emsp;&emsp;python manage.py createsuperuser
+&emsp;&emsp;&emsp;python3 manage.py createsuperuser
 
 4. From there you should now be able to run the server using the following command.
 
-&emsp;&emsp;&emsp;python manage.py runserver
+&emsp;&emsp;&emsp;python3 manage.py runserver
 
 5. Next close the server in your terminal using ctrl+c (cmd+c on mac) and run the following commands to populate the database.
 
@@ -216,12 +216,23 @@ To run this application in an online environment you will need to deploy the cod
 
 6.	Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below.
 
-###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python manage.py migrate
+###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python3 manage.py migrate
 
 7.	Next you will need to create a super user and populate the database as described in the database set up section.
 8.	From here, select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from, the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
-9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
+9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date(Currently the manual process is being used as Heroku is experiencing security issues)*.
 10.	When this has deployed select open app from the top bar of the Heroku App.
+
+Heroku Manual Process (the automatic had been set up before the issue)
+
+IF YOU ARE CREATING A NEW DEPLOYMENT/APP
+
+-	Run the command heroku login -i and login when prompted. Then run the command heroku create your_app_name_here to create a new app, replacing your_app_name_here with the name you want to give your app. This will create a new Heroku app and link it to your Gitpod terminal. You can then access the app via the Heroku dashboard and set up your config vars.
+
+IF YOU ALREADY HAVE AN APP CREATED WHICH USES AUTOMATIC DEPLOYS
+-	Run the command heroku login -i and login when prompted. Then run the following command: heroku git:remote -a your_app_name_here and replace your_app_name_here with the name of your Heroku app. This will link the app to your Gitpod terminal.
+-	Followed by git push heroku main
+
 
 
 # Credits
