@@ -8,17 +8,13 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 
 ## Visitor Goals
 
-- First Time Visitor Goals
-- As a First Time Visitor, I want to easily find a fitness plan I want to start.
+### First Time Visitor Goals
+- As a First Time Visitor, I want to easily find a items I want to buy.
 - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-- As a First Time Visitor, I want to look for reviews to understand what their users think of them and see if they are trusted.
 
-- Returning Visitor Goals
-- As a Returning Visitor, I would like to write a review about a plan I have recently followed from the online store.
-- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-- As a Returning Visitor, I would like to edit a plan review I added to the website.
-- As a Returning Visitor, I would like to Remove a book review I added to the website.
-- As a Returning Visitor, I would like to delete a review I left on a plan/purchase.
+### Returning Visitor Goals
+- As a Returning Visitor, I would like to review previous purchases in my profile.
+- As a Returning Visitor, I would like to continue support the causes with donations.
 
 # **User Stories**
 
@@ -90,11 +86,11 @@ Develope greater links to the individual charities and local groups to the custo
 ### Frameworks
 
 - [Django](https://www.djangoproject.com/)
-- [Bootstrap]https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ### Libraries
 
-- [Jquery]https://jquery.com/)
+- [Jquery](https://jquery.com/)
 - [Stripe](https://stripe.com/gb)
 
 ### Tools
