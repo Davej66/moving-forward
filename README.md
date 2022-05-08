@@ -8,24 +8,21 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 
 ## Visitor Goals
 
-- First Time Visitor Goals
-- As a First Time Visitor, I want to easily find a fitness plan I want to start.
+### First Time Visitor Goals
+- As a First Time Visitor, I want to easily find a items I want to buy.
 - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-- As a First Time Visitor, I want to look for reviews to understand what their users think of them and see if they are trusted.
+- As a First Time Visitor, I want to be able to easily to set up an account.
 
-- Returning Visitor Goals
-- As a Returning Visitor, I would like to write a review about a plan I have recently followed from the online store.
-- As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-- As a Returning Visitor, I would like to edit a plan review I added to the website.
-- As a Returning Visitor, I would like to Remove a book review I added to the website.
-- As a Returning Visitor, I would like to delete a review I left on a plan/purchase.
+### Returning Visitor Goals
+- As a Returning Visitor, I would like to review previous purchases in my profile.
+- As a Returning Visitor, I would like to continue to support the causes with donations.
+- As a Returning Visitor, I would like to see items and offers.
 
 # **User Stories**
 
 ## **User**
 - As a user I want to be able to purchase items that I like.
 - As a user I want to be able to shop with confidence and pay with my card directly not through a third party site.
-- As a user I want to be able to donate with confidence and pay with my card directly not through a third party site.
 
 ## **Admin**
 - As a user I want to be able to add products easily.
@@ -90,11 +87,11 @@ Develope greater links to the individual charities and local groups to the custo
 ### Frameworks
 
 - [Django](https://www.djangoproject.com/)
-- [Bootstrap]https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ### Libraries
 
-- [Jquery]https://jquery.com/)
+- [Jquery](https://jquery.com/)
 - [Stripe](https://stripe.com/gb)
 
 ### Tools
@@ -107,16 +104,19 @@ Develope greater links to the individual charities and local groups to the custo
 ## **Testing**
 
 ### [Link to Testing](https://github.com/Davej66/moving-forward/blob/main/TESTING.md)
-
- Working on
  
-## **Bugs**
+# **Bugs**
 
-Working on
+- Problem : The home page option is missing from the drop-down menu in the tablet mode. 
+- Cause : The styling padding was causing the top of the list to be obscured.
+- Resolution :  The padding was adjusted.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
-- When Donations are purchase and the total shopping bag is less then £50 so a delivery is added, this too would require further coding before going live.
+- When Donations are purchased and the total shopping bag is less then £50 a delivery is added, this too would require further coding before going live.
 
 # **Deployment**
 
@@ -214,7 +214,7 @@ To run this application in an online environment you will need to deploy the cod
 ###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python manage.py migrate
 
 7.	Next you will need to create a super user and populate the database as described in the database set up section.
-8.	When3.	From here select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from. the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
+8.	From here, select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from, the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
 9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
 10.	When this has deployed select open app from the top bar of the Heroku App.
 
