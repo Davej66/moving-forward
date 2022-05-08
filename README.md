@@ -15,7 +15,8 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 
 ### Returning Visitor Goals
 - As a Returning Visitor, I would like to review previous purchases in my profile.
-- As a Returning Visitor, I would like to continue support the causes with donations.
+- As a Returning Visitor, I would like to continue to support the causes with donations.
+- As a Returning Visitor, I would like to see items and offers.
 
 # **User Stories**
 
