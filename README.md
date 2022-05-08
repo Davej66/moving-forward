@@ -213,7 +213,7 @@ To run this application in an online environment you will need to deploy the cod
 ###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python manage.py migrate
 
 7.	Next you will need to create a super user and populate the database as described in the database set up section.
-8.	When3.	From here select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from. the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
+8.	From here, select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from, the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
 9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
 10.	When this has deployed select open app from the top bar of the Heroku App.
 
