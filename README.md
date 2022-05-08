@@ -2,7 +2,7 @@
 
 # **Moving Forward** 
 
-Moving Forward is a website to allow users to donate or buy locally produced or sourced items with the the profits from these purchases being re-invested into the local commumities and charity groups in the Cape Town area of the Western Province.
+Moving Forward is a website to allow users to donate, buy locally produced or sourced items with the the profits from these purchases being re-invested into the local commumities and charity groups in the Cape Town area of the Western Province.
 
 # **UX**
 
@@ -30,14 +30,14 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 - As a user I want to include options for the admin to quickly edit the site.
 
 ## **Developer**
-- As a user i want to ensure the user can't break the flow of the site with correct defensive design choices.
-- As a user i want to ensure an authenticated user can access all required information correctly.
-- As a user i want to include options for the admin to quickly edit the site.
+- As a user I want to ensure the user can't break the flow of the site with correct defensive design choices.
+- As a user I want to ensure an authenticated user can access all required information correctly.
+- As a user I want to include options for the admin to quickly edit the site.
 
 
 ## **Colours**
 
-I wanted to select a minimal range of colours not to overwhelm but to compliment the selcted background image selecting #ADD8E6 produced the desired effect without compromising the website.
+I wanted to select a minimal range of colours not to overwhelm but to compliment the selected background image selecting #ADD8E6 produced the desired effect without compromising the website.
 
 ![image](https://user-images.githubusercontent.com/85559896/167144643-078a40eb-a591-47fd-b0f5-5d351308400a.png)
 
@@ -50,7 +50,7 @@ The Lato font was selected for its clean and business like style for the website
 
 ### [Link to wireframes](https://github.com/Davej66/moving-forward/blob/main/WIREFRAMES.MD)
 
-## **Freatures**
+## **Features**
 
 ### Existing Features
 
@@ -67,12 +67,12 @@ Clients that register, their details are recorded and can be updated and are use
 ##### Clients
 
 - Clients to be able to add a profile picture.
-- Add additional information such as hobbies and skills, and when selected by the client this information would be available on a community page. To exchange social or commercial assisatnace to other memebers and to the groups supported by the website.
+- Add additional information such as hobbies and skills, and when selected by the client this information would be available on a community skills bank page. To exchange social or commercial assisatnace to other memebers and to the groups supported by the website.
 - To be able to contact the local groups and store these messages.
-- Facetime or similiar these groups.
-- This greater interaction will allow those clients who have skills or time to offer additional help to these groups.
+- Facetime or similiar app these groups.
+- This greater interaction will allow those customers who have skills or time to offer additional help to these groups.
 
-Develope greater links to the individual charities and local groups to the customer to create greater bonds.
+Develop greater links to the individual charities and local groups to the customer to create greater bonds.
 
 
 ## **Technology Used**
