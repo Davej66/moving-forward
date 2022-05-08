@@ -11,6 +11,7 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 ### First Time Visitor Goals
 - As a First Time Visitor, I want to easily find a items I want to buy.
 - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+- As a First Time Visitor, I want to be able to easily to set up an account.
 
 ### Returning Visitor Goals
 - As a Returning Visitor, I would like to review previous purchases in my profile.
@@ -21,7 +22,6 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 ## **User**
 - As a user I want to be able to purchase items that I like.
 - As a user I want to be able to shop with confidence and pay with my card directly not through a third party site.
-- As a user I want to be able to donate with confidence and pay with my card directly not through a third party site.
 
 ## **Admin**
 - As a user I want to be able to add products easily.
