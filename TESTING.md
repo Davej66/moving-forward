@@ -1,6 +1,6 @@
 # **Testing**
 
-No automated testing has been used on this project, i have opted to do all testing manually and through numerous user experiences.
+No automated testing has been used on this project, I have opted to do all testing manually and through numerous user experiences.
 
 - Implementation : Confirming items for sale in the store (and donations) correctly loaded in the store and product detail page. 
 - Test : Testing was undertaken by checking each item by selecting each item and on to the product detail.
@@ -25,7 +25,7 @@ No automated testing has been used on this project, i have opted to do all testi
 
 - Implementation : Confirm a user logged in can complete a purchase from start to finish.
 - Test : Items were selected randomly and added to the shopping bag and then the purchased via the checkout
-- Result : The Purchase completed successfuly and confirmation was also sent to the user, all pages updated correctly.
+- Result : The Purchase completed successfully and confirmation was also sent to the user, all pages updated correctly.
 - Verdict : The test was successful and deemed a pass.
 
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ No automated testing has been used on this project, i have opted to do all testi
 ----------------------------------------------------------------------------------------------------------------------------------
 
 - Implementation : Confirm a no previous orders meesage and link to products page in user profile page.
-- Test : A new user was created and in the new user profile page checked if the message and link was there. Then to purcase some items and see  if the previous orders listis then shown in place of the previous no purchase orders message and shopping link.
+- Test : A new user was created and in the new user profile page checked if the message and link was there. Then to purchase some items and see  if the previous orders list is then shown in place of the previous no purchase orders message and shopping link.
 - Result : The appropriate no previous orders message and shopping link was displayed when no previous orders had been made and then when their had been purchase these were listed.
 - Verdict : The test was successful and deemed a pass.
 

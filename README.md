@@ -2,7 +2,7 @@
 
 # **Moving Forward** 
 
-Moving Forward is a website to allow users to donate or buy locally produced or sourced items with the the profits from these purchases being re-invested into the local commumities and charity groups in the Cape Town area of the Western Province.
+Moving Forward is a website to allow users to donate, buy locally produced or sourced items with the the profits from these purchases being re-invested into the local commumities and charity groups in the Cape Town area of the Western Province.
 
 # **UX**
 
@@ -30,14 +30,14 @@ Moving Forward is a website to allow users to donate or buy locally produced or 
 - As a user I want to include options for the admin to quickly edit the site.
 
 ## **Developer**
-- As a user i want to ensure the user can't break the flow of the site with correct defensive design choices.
-- As a user i want to ensure an authenticated user can access all required information correctly.
-- As a user i want to include options for the admin to quickly edit the site.
+- As a user I want to ensure the user can't break the flow of the site with correct defensive design choices.
+- As a user I want to ensure an authenticated user can access all required information correctly.
+- As a user I want to include options for the admin to quickly edit the site.
 
 
 ## **Colours**
 
-I wanted to select a minimal range of colours not to overwhelm but to compliment the selcted background image selecting #ADD8E6 produced the desired effect without compromising the website.
+I wanted to select a minimal range of colours not to overwhelm but to compliment the selected background image selecting #ADD8E6 produced the desired effect without compromising the website.
 
 ![image](https://user-images.githubusercontent.com/85559896/167144643-078a40eb-a591-47fd-b0f5-5d351308400a.png)
 
@@ -50,7 +50,7 @@ The Lato font was selected for its clean and business like style for the website
 
 ### [Link to wireframes](https://github.com/Davej66/moving-forward/blob/main/WIREFRAMES.MD)
 
-## **Freatures**
+## **Features**
 
 ### Existing Features
 
@@ -67,19 +67,19 @@ Clients that register, their details are recorded and can be updated and are use
 ##### Clients
 
 - Clients to be able to add a profile picture.
-- Add additional information such as hobbies and skills, and when selected by the client this information would be available on a community page. To exchange social or commercial assisatnace to other memebers and to the groups supported by the website.
+- Add additional information such as hobbies and skills, and when selected by the client this information would be available on a community skills bank page. To exchange social or commercial assisatnace to other memebers and to the groups supported by the website.
 - To be able to contact the local groups and store these messages.
-- Facetime or similiar these groups.
-- This greater interaction will allow those clients who have skills or time to offer additional help to these groups.
+- Facetime or similiar app these groups.
+- This greater interaction will allow those customers who have skills or time to offer additional help to these groups.
 
-Develope greater links to the individual charities and local groups to the customer to create greater bonds.
+Develop greater links to the individual charities and local groups to the customer to create greater bonds.
 
 
 ## **Technology Used**
 
 ### Languages
 
-- HTNL
+- HTML
 - CSS
 - Javascript
 - [Python](https://www.python.org/downloads/)
@@ -111,12 +111,17 @@ Develope greater links to the individual charities and local groups to the custo
 - Cause : The styling padding was causing the top of the list to be obscured.
 - Resolution :  The padding was adjusted.
 
+- Problem : Fails to load. 
+- Cause : Removed surplus apps cause a process error.
+- Resolution :  Removing links/migrations to previous apps.
+
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
 ## Unresolved Issues
 - Items can be increased beyond the 99 limit in the shopping bag, this would have to additional code before going live.
 - When Donations are purchased and the total shopping bag is less then £50 a delivery is added, this too would require further coding before going live.
+- When DEBUG is set to False media fails to load - media remains from cached from a previous True. Further investigation and coding is required to resolve this.  
 
 # **Deployment**
 
@@ -134,9 +139,9 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 
 ## Deploying Locally
 
-1. In the repository click on the "use this template" it will open in a new window with you being required t give the new repository a name. Select public or private and then the create button.
+1. In the repository click on the "use this template" it will open in a new window with you being required to give the new repository a name. Select public or private and then the create button.
 2. When the new repository has been created select Gitpod to open.
-3. When this completes you will be required to import the requirememts using te following;
+3. When this completes you will be required to import the requirememts using the following;
 
 &emsp;&emsp;&emsp;pip3 install -r requirements.txt
 
@@ -160,15 +165,15 @@ The site can be deployed locally using VsCode IDE, deployed on Heroku using Amaz
 
 1. To set up your database you will first need to run the following command.
 
-&emsp;&emsp;&emsp;python manage.py migrate
+&emsp;&emsp;&emsp;python3 manage.py migrate
 
 3. To create a super user to allow you to access the admin panel run the following command in your terminal and complete the required information as prompted.
 
-&emsp;&emsp;&emsp;python manage.py createsuperuser
+&emsp;&emsp;&emsp;python3 manage.py createsuperuser
 
 4. From there you should now be able to run the server using the following command.
 
-&emsp;&emsp;&emsp;python manage.py runserver
+&emsp;&emsp;&emsp;python3 manage.py runserver
 
 5. Next close the server in your terminal using ctrl+c (cmd+c on mac) and run the following commands to populate the database.
 
@@ -211,12 +216,23 @@ To run this application in an online environment you will need to deploy the cod
 
 6.	Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below.
 
-###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python manage.py migrate
+###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;python3 manage.py migrate
 
 7.	Next you will need to create a super user and populate the database as described in the database set up section.
 8.	From here, select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from, the migrations and data has been       loaded, in your Heroku dashboard select the Deploy tab.
-9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
+9.	It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date(Currently the manual process is being used as Heroku is experiencing security issues)*.
 10.	When this has deployed select open app from the top bar of the Heroku App.
+
+Heroku Manual Process (the automatic had been set up before the issue)
+
+IF YOU ARE CREATING A NEW DEPLOYMENT/APP
+
+-	Run the command heroku login -i and login when prompted. Then run the command heroku create your_app_name_here to create a new app, replacing your_app_name_here with the name you want to give your app. This will create a new Heroku app and link it to your Gitpod terminal. You can then access the app via the Heroku dashboard and set up your config vars.
+
+IF YOU ALREADY HAVE AN APP CREATED WHICH USES AUTOMATIC DEPLOYS
+-	Run the command heroku login -i and login when prompted. Then run the following command: heroku git:remote -a your_app_name_here and replace your_app_name_here with the name of your Heroku app. This will link the app to your Gitpod terminal.
+-	Followed by git push heroku main
+
 
 
 # Credits
