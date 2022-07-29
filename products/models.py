@@ -30,14 +30,14 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-    def get_rating(self):
+    def get_rating(product):
         reviews_total = 0
 
-        for review in self.reviews.all():
+        for review in product.reviews.all():
             reviews_total += review.rating
 
         if reviews_total > 0:
-            return reviews_total / self.reviews.count()
+            return reviews_total / product.reviews.count()
 
         return 0
 
