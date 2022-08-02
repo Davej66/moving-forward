@@ -27,6 +27,7 @@ class ReviewAdmin(admin.ModelAdmin):
         'rating',
         'content',
         'created_by',
+        'created_at',
     )
 
 admin.site.register(Product, ProductAdmin)
