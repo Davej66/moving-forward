@@ -245,6 +245,10 @@ Images have been sourced from PEXEL or from the developer.
 
 * Richard Wells for his continuing inspirational support, guidance and input.
 
+## Additional Code
+
+For the reviews model & news blog code was inspired from code with stein.
+
 ## **Disclaimer**
 
 All images & content used for this site are for educational purposes only, and have been sourced from pexel or the developers own library.
