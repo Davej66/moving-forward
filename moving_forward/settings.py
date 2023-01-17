@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['djj-moving-forward.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['dj-moving-forward.herokuapp.com', 'localhost']
 
 
 # Application definition
